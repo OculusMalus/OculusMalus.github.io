@@ -1,0 +1,64 @@
+body {
+    background-image: url("TLC Header.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    margin: 10px;
+    margin-top:300px ;
+}
+
+h1 {
+    color: rgb(110, 110, 110);
+    text-align: center;
+    font-family: Arial, verdana
+}
+
+h3 {
+	color: darkgray;
+	text-align: center;
+	font-family: Arial, verdana
+}
+
+p {
+    font-family: Arial, verdana;
+    font-size: 20px;
+}
+
+ol {
+    text-align: left;
+    color: maroon;
+
+}
+
+ul {
+    text-align: left;
+    color: maroon;
+
+}
+
+#list1 {
+    text-align: left;
+    color: maroon;
+    font-weight: bold;
+}
+
+/* unvisited-visited link */
+a:link, a:visited {
+    background-color: maroon;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* mouse over-selected link */
+a:hover, a:active {
+    background-color: hotpink;
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
